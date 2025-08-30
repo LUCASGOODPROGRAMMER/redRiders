@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Riders</title>
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/navBar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/sidebar.css" />
+    <link rel="stylesheet" href="./css/restaurante.css" />
+    <link rel="stylesheet" href="./css/pedidos.css" />
+  </head>
+  <body>
+    <header id="header"></header>
+    <main>
+      <div class="container-restaurante">
+        <div id="sidebar"></div>
+        <div class="container-main-restaurante">
+          <!-- outlet -->
+          <div id="container-pedidos">
+            <h2 id="titulo-pedidos">Gerenciar Pedidos</h2>
+
+            <ul id="lista-pedidos">
+              <!-- Pedido 1 -->
+              <li class="card-pedido">
+                <div class="info-pedido">
+                  <h3>Pedido #001</h3>
+                  <p><strong>Cliente:</strong> João Silva</p>
+                  <p><strong>Restaurante:</strong> Restaurante A</p>
+                  <p><strong>Itens:</strong> Pizza Margherita, Refrigerante</p>
+                  <p><strong>Status:</strong> Pendente</p>
+                </div>
+                <div class="acoes-pedido">
+                  <button class="btn-deletar">Cancelar</button>
+                  <button class="btn-editar">Atualizar Status</button>
+                </div>
+              </li>
+
+              <!-- Pedido 2 -->
+              <li class="card-pedido">
+                <div class="info-pedido">
+                  <h3>Pedido #002</h3>
+                  <p><strong>Cliente:</strong> Maria Souza</p>
+                  <p><strong>Restaurante:</strong> Restaurante B</p>
+                  <p><strong>Itens:</strong> Sushi, Chá Verde</p>
+                  <p><strong>Status:</strong> Em andamento</p>
+                </div>
+                <div class="acoes-pedido">
+                  <button class="btn-deletar">Cancelar</button>
+                  <button class="btn-editar">Atualizar Status</button>
+                </div>
+              </li>
+
+              <!-- Pedido 3 -->
+              <li class="card-pedido">
+                <div class="info-pedido">
+                  <h3>Pedido #003</h3>
+                  <p><strong>Cliente:</strong> Carlos Pereira</p>
+                  <p><strong>Restaurante:</strong> Restaurante C</p>
+                  <p><strong>Itens:</strong> Feijoada, Suco Natural</p>
+                  <p><strong>Status:</strong> Entregue</p>
+                </div>
+                <div class="acoes-pedido">
+                  <button class="btn-deletar">Cancelar</button>
+                  <button class="btn-editar">Atualizar Status</button>
+                </div>
+              </li>
+            </ul>
+
+            <!-- Caso não haja pedidos -->
+            <!-- <p id="nenhum-pedido">Nenhum pedido cadastrado.</p> -->
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+    <script src="./js/components.js" defer></script>
+  </body>
+</html>

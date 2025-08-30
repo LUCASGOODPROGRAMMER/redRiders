@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Riders</title>
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/navBar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/sidebar.css" />
+    <link rel="stylesheet" href="./css/restaurante.css" />
+    <link rel="stylesheet" href="./css/clientes.css">
+  </head>
+  <body>
+    <header id="header"></header>
+    <main>
+      <div class="container-restaurante">
+        <div id="sidebar"></div>
+        <div class="container-main-restaurante">
+          <!-- outlet -->
+          <!-- Aba de Clientes -->
+          <section id="clientes">
+            <h2>Clientes</h2>
+
+            <!-- Botão para adicionar cliente -->
+            <button class="btn-add">+ Adicionar Cliente</button>
+
+            <!-- Lista de clientes -->
+            <div class="clientes-lista">
+              <div class="cliente-card">
+                <h3>Lucas Nascimento</h3>
+                <p>Email: lucas@email.com</p>
+                <p>Telefone: (69) 99999-9999</p>
+                <div class="cliente-actions">
+                  <button class="btn-edit">Editar</button>
+                  <button class="btn-delete">Excluir</button>
+                </div>
+              </div>
+
+              <div class="cliente-card">
+                <h3>Maria Oliveira</h3>
+                <p>Email: maria@email.com</p>
+                <p>Telefone: (69) 98888-8888</p>
+                <div class="cliente-actions">
+                  <button class="btn-edit">Editar</button>
+                  <button class="btn-delete">Excluir</button>
+                </div>
+              </div>
+
+              <div class="cliente-card">
+                <h3>João Pedro</h3>
+                <p>Email: joao@email.com</p>
+                <p>Telefone: (69) 97777-7777</p>
+                <div class="cliente-actions">
+                  <button class="btn-edit">Editar</button>
+                  <button class="btn-delete">Excluir</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+    <script src="./js/components.js" defer></script>
+  </body>
+</html>
